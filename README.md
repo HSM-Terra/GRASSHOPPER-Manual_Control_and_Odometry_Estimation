@@ -5,7 +5,12 @@ Linux 22.04: https://releases.ubuntu.com/jammy/
 
 ROS2 Humble: https://docs.ros.org/en/humble/index.html
 
-Robot Connections: 
+VESC Connections in USB Hub: 
+1. Left Front VESC – ttyACM0
+2. Right Front VESC – ttyACM1
+3. Left Rear VESC – ttyACM2
+4. Right Rear VESC – ttyACM3
+5. IMU VESC – ttyACM4 
 
 # Robot Manual Control Launch Steps
 ## Clone the Repository into your workspace
