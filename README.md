@@ -13,12 +13,12 @@ VESC Connections in USB Hub:
 5. IMU VESC – ttyACM4 
 
 # Robot Manual Control Launch Steps
-## Clone the Repository into your workspace
+## Clone the Repository into your Workspace
 ```bash
 git clone https://github.com/HSM-Terra/GRASSHOPPER-Robot_Launch
 ```
 
-## Build the workspace
+## Build the Workspace
 ```bash
 colcon build
 ```
@@ -26,7 +26,7 @@ colcon build
 ```bash
 ros2 launch vesc_driver vesc_driver_node.launch.py 
 ```
-Connect your joystick via bluetooth
+Connect your Joystick via Bluetooth
 
 ## Launch the Joystick Control Node
 ```bash
@@ -39,7 +39,7 @@ ros2 launch ros2_vesc_drv vesc_with_joy.launch.py
 
 Sick TiM 551 LiDAR
 
-## Connect the LiDAR via USB and launch the ROS2 node
+## Connect the LiDAR via USB and Launch the ROS2 node
 ```bash
 ros2 launch sick-tim sick_tim551_2050001_usb.launch.py
 ```
