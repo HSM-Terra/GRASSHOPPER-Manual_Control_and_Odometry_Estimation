@@ -1,4 +1,4 @@
-# Launching Grasshopper
+# Grasshopper Manual Control and Odometry Estimation 
 
 ## Pre-requisites
 Linux 22.04
