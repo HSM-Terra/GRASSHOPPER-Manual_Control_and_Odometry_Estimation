@@ -58,3 +58,11 @@ ros2 launch local_controller node.launch.py
 ```
 
 Individual Sequences and RANSAC Algorithm can be found in /local_controller/local_controller folder.
+
+# FRE Navigation Task 1 Implementation
+
+
+
+
+https://github.com/user-attachments/assets/04ff3f06-963c-4b78-a14b-886fa9806525
+
