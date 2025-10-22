@@ -59,6 +59,9 @@ ros2 launch local_controller node.launch.py
 
 Individual Sequences and RANSAC Algorithm can be found in /local_controller/local_controller folder.
 
+For Maize Crop Counting, please refer to the related repository: https://github.com/HSM-Terra/PERCEPTION-Maize-Crop-Detection-Tracking-and-Counting
+
+
 # FRE Navigation Task 1 Implementation
 
 
