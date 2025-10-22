@@ -25,3 +25,18 @@ Connect your joystick via bluetooth
 
 ros2 launch ros2_vesc_drv vesc_with_joy.launch.py 
 
+
+# Grasshopper Odometry Estimation
+
+## Pre-requisites 
+
+Sick TiM 551 LiDAR
+
+## Connect the LiDAR via USB and launch the ROS2 node
+
+ros2 launch sick-tim sick_tim551_2050001_usb.launch.py
+
+## Filtered Odometry Launch
+ros2 launch ros2_odometry_estimation robot_odometry_filtered.launch.py
+
+
