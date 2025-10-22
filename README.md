@@ -15,7 +15,7 @@ VESC Connections in USB Hub:
 # Robot Manual Control Launch Steps
 ## Clone the Repository into your Workspace
 ```bash
-git clone https://github.com/HSM-Terra/GRASSHOPPER-Robot_Launch
+git clone [https://github.com/HSM-Terra/GRASSHOPPER-Robot_Launch](https://github.com/HSM-Terra/GRASSHOPPER-Manual_Control_and_Odometry_Estimation)
 ```
 
 ## Build the Workspace
