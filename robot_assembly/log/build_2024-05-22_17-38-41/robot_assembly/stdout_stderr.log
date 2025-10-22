@@ -1,0 +1,56 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mero_1/robot_assembly/build/robot_assembly
+-- Install configuration: ""
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/urdf
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/urdf/robot_assembly.csv
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/urdf/robot_assembly.urdf.xacro
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/launch
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/launch/gazebo.launch
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/launch/python.launch.py
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/launch/display.launch.xml
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/launch/rviz.launch.xml
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/meshes
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/meshes/left_rear_wheel.STL
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/meshes/left_front_wheel.STL
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/meshes/base_link.STL
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/meshes/right_front_wheel.STL
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/meshes/right_rear_wheel.STL
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/config
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/config/joint_names_robot_assembly.yaml
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/worlds
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/worlds/my_world.world
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/worlds/test_world.world
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/worlds/turtlebot3_house.world
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/worlds/turtlebot3_world.world
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/worlds/playground.world
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/worlds/field.world
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/ament_index/resource_index/package_run_dependencies/robot_assembly
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/ament_index/resource_index/parent_prefix_path/robot_assembly
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/environment/ament_prefix_path.sh
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/environment/ament_prefix_path.dsv
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/environment/path.sh
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/environment/path.dsv
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/local_setup.bash
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/local_setup.sh
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/local_setup.zsh
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/local_setup.dsv
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/package.dsv
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/ament_index/resource_index/packages/robot_assembly
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/cmake/robot_assemblyConfig.cmake
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/cmake/robot_assemblyConfig-version.cmake
+-- Installing: /home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/package.xml

@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<robot name="robot_2wd" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <link name="base_footprint" />
+
+    <link name="base_link">
+        <inertial>
+          <origin xyz="-2.3315E-15 8.3267E-17 0.06908" rpy="0 0 0" />
+          <mass value="34" />
+          <inertia ixx="0.11562" ixy="0.00010128" ixz="6.4309E-18" iyy="0.63275" iyz="8.4833E-16" izz="0.69302" />
+        </inertial>
+        <visual>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <mesh filename="file:///home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/meshes/base_link.STL" />
+          </geometry>
+          <material name="">
+            <color rgba="1 1 1 1" />
+          </material>
+        </visual>
+        <collision>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <mesh filename="file:///home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/meshes/base_link.STL" />
+          </geometry>
+        </collision>
+    </link>
+
+    <joint name="base_footprint_to_base_link" type="fixed">
+        <parent link="base_footprint" />
+        <child link="base_link" />
+        <origin xyz="0 0 0.075"/>
+    </joint>
+
+    <link name="left_front_wheel">
+        <inertial>
+          <origin xyz="2.1095E-05 2.8789E-05 0.040353" rpy="0 0 0" />
+          <mass value="4.7694" />
+          <inertia ixx="0.023623" ixy="-9.2831E-09" ixz="5.5853E-09" iyy="0.023623" iyz="-1.8931E-08" izz="0.042818" />
+        </inertial>
+        <visual>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <mesh filename="file:///home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/meshes/left_front_wheel.STL" />
+          </geometry>
+          <material name="">
+            <color rgba="0.75294 0.75294 0.75294 1" />
+          </material>
+        </visual>
+        <collision>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <mesh filename="file:///home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/meshes/left_front_wheel.STL" />
+          </geometry>
+        </collision>
+    </link>
+      
+    <joint name="leftfront" type="continuous">
+        <origin xyz="0.1483 0.2145 0.05" rpy="1.5708 0 0" />
+        <parent link="base_link" />
+        <child link="left_front_wheel" />
+        <axis xyz="0 0 -1" />
+    </joint>
+      
+    <link name="right_front_wheel">
+        <inertial>
+          <origin xyz="-3.0513E-05 1.8513E-05 -0.040353" rpy="0 0 0" />
+          <mass value="4.7694" />
+          <inertia ixx="0.023623" ixy="-3.605E-09" ixz="-2.0923E-09" iyy="0.023623" iyz="1.9627E-08" izz="0.042818" />
+        </inertial>
+        <visual>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <mesh filename="file:///home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/meshes/right_front_wheel.STL" />
+          </geometry>
+          <material name="">
+            <color rgba="0.75294 0.75294 0.75294 1" />
+          </material>
+        </visual>
+        <collision>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <mesh filename="file:///home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/meshes/right_front_wheel.STL" />
+          </geometry>
+        </collision>
+    </link>
+      
+    <joint name="rightfront" type="continuous">
+        <origin xyz="0.1483 -0.2145 0.05" rpy="1.5708 0 0" />
+        <parent link="base_link" />
+        <child link="right_front_wheel" />
+        <axis xyz="0 0 -1" />
+    </joint>
+      
+    <link name="left_rear_wheel">
+        <inertial>
+          <origin xyz="-2.4071E-05 2.6351E-05 0.040353" rpy="0 0 0" />
+          <mass value="4.7694" />
+          <inertia ixx="0.023623" ixy="3.0174E-09" ixz="1.966E-08" iyy="0.023623" iyz="1.748E-09" izz="0.042818" />
+        </inertial>
+        <visual>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <mesh filename="file:///home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/meshes/left_rear_wheel.STL" />
+          </geometry>
+          <material name="">
+            <color rgba="0.75294 0.75294 0.75294 1" />
+          </material>
+        </visual>
+        <collision>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <mesh filename="file:///home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/meshes/left_rear_wheel.STL" />
+          </geometry>
+        </collision>
+    </link>
+      
+    <joint name="leftrear" type="continuous">
+        <origin xyz="-0.1483 0.2145 0.05" rpy="1.5708 0 0" />
+        <parent link="base_link" />
+        <child link="left_rear_wheel" />
+        <axis xyz="0 0 -1" />
+    </joint>
+      
+    <link name="right_rear_wheel">
+      <inertial>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <mass value="4.7694" />
+          <inertia ixx="0.023623" ixy="0" ixz="0" iyy="0.023623" iyz="0" izz="0.042818" />
+        </inertial>
+        <visual>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh filename="file:///home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/meshes/right_rear_wheel.STL" />
+        </geometry>
+        <material name="">
+          <color rgba="1 1 1 1" />
+        </material>
+        </visual>
+         <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+            <mesh filename="file:///home/mero_1/robot_assembly/install/robot_assembly/share/robot_assembly/meshes/right_rear_wheel.STL" />
+          </geometry>
+      </collision>
+    </link>
+  
+      
+    <joint name="rightrear" type="continuous">
+        <origin xyz="-0.1483 -0.2145 0.05" rpy="1.5708 0 0" />
+        <parent link="base_link" />
+        <child link="right_rear_wheel" />
+        <axis xyz="0 0 -1" />
+    </joint>
+
+    <link name="imu_link" />
+
+    <joint name="base_link_to_imu_link" type="fixed">
+        <parent link="base_link" />
+        <child link="imu_link" />
+        <origin xyz="-0.1 -0.035 0.05" rpy="0 0 0"/>
+    </joint>
+
+    <link name="laser_mount_link" />
+
+    <joint name="base_link_to_laser_mount_link" type="fixed">
+        <parent link="base_link" />
+        <child link="laser_mount_link" />
+        <origin xyz="0.02 0 0.12" rpy="0 0 0"/>
+    </joint>
+
+
+
+
+</robot>
