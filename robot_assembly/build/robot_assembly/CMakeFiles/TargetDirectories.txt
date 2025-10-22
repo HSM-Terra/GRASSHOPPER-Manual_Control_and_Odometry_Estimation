@@ -1,0 +1,9 @@
+/home/mero_1/robot_assembly/build/robot_assembly/CMakeFiles/uninstall.dir
+/home/mero_1/robot_assembly/build/robot_assembly/CMakeFiles/robot_assembly_uninstall.dir
+/home/mero_1/robot_assembly/build/robot_assembly/CMakeFiles/test.dir
+/home/mero_1/robot_assembly/build/robot_assembly/CMakeFiles/edit_cache.dir
+/home/mero_1/robot_assembly/build/robot_assembly/CMakeFiles/rebuild_cache.dir
+/home/mero_1/robot_assembly/build/robot_assembly/CMakeFiles/list_install_components.dir
+/home/mero_1/robot_assembly/build/robot_assembly/CMakeFiles/install.dir
+/home/mero_1/robot_assembly/build/robot_assembly/CMakeFiles/install/local.dir
+/home/mero_1/robot_assembly/build/robot_assembly/CMakeFiles/install/strip.dir
