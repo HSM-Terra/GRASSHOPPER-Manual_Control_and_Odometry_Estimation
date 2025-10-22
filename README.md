@@ -10,7 +10,7 @@ Robot Connections:
 # Robot Manual Control Launch Steps
 ## Clone the Repository into your workspace
 ```bash
-git clone 
+git clone https://github.com/HSM-Terra/GRASSHOPPER-Robot_Launch
 ```
 
 ## Build the workspace
