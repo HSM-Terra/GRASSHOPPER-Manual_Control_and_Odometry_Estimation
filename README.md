@@ -49,3 +49,12 @@ ros2 launch sick-tim sick_tim551_2050001_usb.launch.py
 ros2 launch ros2_odometry_estimation robot_odometry_filtered.launch.py
 ```
 
+# FRE 2024 Task 1 and Task 2 Navigation Sequence (Crop Lane 1, Turning Sequence 1 & 2)
+
+## Launch Navigation Node
+
+```bash
+ros2 launch local_controller node.launch.py
+```
+
+Individual Sequences and RANSAC Algorithm can be found in /local_controller/local_controller folder.
