@@ -19,6 +19,9 @@ git clone https://github.com/HSM-Terra/GRASSHOPPER-Manual_Control_and_Odometry_E
 ```
 
 ## Build the Workspace
+# Install all the dependencies
+
+# Navigate to each package folder and check the README for related dependencies specific to the concerned package.
 ```bash
 colcon build
 ```
